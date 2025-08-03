@@ -5,5 +5,5 @@
 @tailwind utilities;
 
 .toggle-menu_button {
-    @apply translate-y-[295px]
+    @apply translate-y-[290px]
 }
