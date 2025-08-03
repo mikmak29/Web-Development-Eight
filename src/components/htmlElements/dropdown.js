@@ -1,0 +1,1 @@
+export const dropdown_list = document.getElementById('dropdown_list');

@@ -13,6 +13,9 @@ module.exports = {
       fontFamily: {
         poppins: ['Poppins', 'sans-serif']
       },
+      colors: {
+        "accent-color": "#CB997E"
+      },
     },
   },
   plugins: [],

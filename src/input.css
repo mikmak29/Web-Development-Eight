@@ -3,3 +3,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.toggle-menu_button {
+    @apply translate-y-[295px]
+}
