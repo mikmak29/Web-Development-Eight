@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.min-width {
+    @apply min-w-[320px]
+}
+
 .toggle-menu_button {
     @apply translate-y-[290px]
 }
