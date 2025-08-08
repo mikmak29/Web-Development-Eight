@@ -11,3 +11,7 @@
 .toggle-menu_button {
     @apply translate-y-[290px]
 }
+
+.music-image_size {
+    @apply w-full h-[200px] object-cover md:h-[300px]
+}
