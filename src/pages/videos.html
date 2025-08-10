@@ -10,7 +10,57 @@
 </head>
 
 <body>
-    <h1 class="text-5xl bg-pink-400">Videos</h1>
+    <header
+        class="relative min-width w-screen max-w-full h-auto bg-black z-10 sm:flex sm:justify-between sm:items-center sm:py-3 sm:px-5 lg:py-4 lg:px-8">
+        <div class="max-w-full bg-black p-3 flex justify-between items-center shrink-0 sm:p-0 sm:w-fit">
+            <a class="text-accent-color text-2xl font-poppins font-semibold cursor-pointer md:text-3xl"
+                href="../../index.html">Taba
+                Chake</a>
+            <div class="flex justify-center items-center">
+                <svg id="menuButton" class="cursor-pointer sm:hidden" width="25px" height="25px" stroke-width="1.7"
+                    viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#CB997E">
+                    <path d="M3 5H21" stroke="#CB997E" stroke-width="1.7" stroke-linecap="round"
+                        stroke-linejoin="round">
+                    </path>
+                    <path d="M3 12H21" stroke="#CB997E" stroke-width="1.7" stroke-linecap="round"
+                        stroke-linejoin="round">
+                    </path>
+                    <path d="M3 19H21" stroke="#CB997E" stroke-width="1.7" stroke-linecap="round"
+                        stroke-linejoin="round">
+                    </path>
+                </svg>
+            </div>
+        </div>
+        <nav id="dropdown_list"
+            class="absolute -top-[240px] left-0 w-full bg-[#FFE8D6] py-3 -z-10 translate-y-0 transform transition-transform duration-500 ease-in-out sm:static sm:-top-0 sm:w-fit sm:bg-transparent sm:py-0 sm:-z-0 sm:translate-y-0 sm:transition-none">
+            <ul
+                class="[&>li>a]:text-accent-color [&>li>a]:text-xl [&>li>a]:font-poppins flex flex-col items-center gap-4 [&>li>a]:sm:text-sm sm:flex-row sm:justify-between sm:gap-12 [&>li>a]:md:text-lg lg:gap-14">
+                <li><a href="music.html">Music</a></li>
+                <li><a href="videos.html">Videos</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="tour.html">Tour</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="min-width w-screen h-auto bg-black text-center space-y-3 p-4">
+        <h1 class="text-accent-color text-[4.4rem] font-poppins font-black text-center leading-none">VIDEOS</h1>
+        <div class="space-y-5 sm:space-y-0 sm:flex sm:gap-5 lg:px-12">
+            <div class="flex flex-col items-center gap-5">
+                <img src="../assets/videos/Group 1.png" alt="Video 1" class="videos-size">
+                <img src="../assets/videos/Group 1.png" alt="Video 1" class="videos-size">
+            </div>
+            <div class="flex flex-col items-center gap-5">
+                <img src="../assets/videos/Group 2.png" alt="Video 2" class="videos-size">
+                <img src="../assets/videos/Group 5.png" alt="Video 2" class="videos-size">
+                <img src="../assets/videos/Group 4.png" alt="Video 2" class="videos-size">
+            </div>
+        </div>
+        <h1 class=" text-accent-color text-sm font-poppins text-center py-4">Copyright © Taba Chake. All Rights Reserved
+        </h1>
+    </section>
+
+    <script type="module" src="../components/main.js"></script>
 </body>
 
 </html>
