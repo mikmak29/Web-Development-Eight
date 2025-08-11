@@ -19,3 +19,7 @@
 .videos-size {
     @apply w-auto h-full aspect-auto object-cover cursor-pointer
 }
+
+.about-us_size {
+    @apply w-[628px] h-[884px] p-4 aspect-auto object-cover transition-transform duration-300 ease-in-out hover:scale-105
+}
