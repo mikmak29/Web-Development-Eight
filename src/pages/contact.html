@@ -10,7 +10,58 @@
 </head>
 
 <body>
-    <h1 class="text-5xl bg-pink-400">Contact</h1>
+    <header
+        class="relative min-width w-screen max-w-full h-[8.2dvh] bg-black z-10 sm:flex sm:justify-between sm:items-center sm:py-3 sm:px-5 lg:py-4 lg:px-8">
+        <div class="max-w-full bg-black p-3 flex justify-between items-center shrink-0 sm:p-0 sm:w-fit">
+            <a class="text-accent-color text-2xl font-poppins font-semibold cursor-pointer md:text-3xl"
+                href="../../index.html">Taba
+                Chake</a>
+            <div class="flex justify-center items-center">
+                <svg id="menuButton" class="cursor-pointer sm:hidden" width="25px" height="25px" stroke-width="1.7"
+                    viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#CB997E">
+                    <path d="M3 5H21" stroke="#CB997E" stroke-width="1.7" stroke-linecap="round"
+                        stroke-linejoin="round">
+                    </path>
+                    <path d="M3 12H21" stroke="#CB997E" stroke-width="1.7" stroke-linecap="round"
+                        stroke-linejoin="round">
+                    </path>
+                    <path d="M3 19H21" stroke="#CB997E" stroke-width="1.7" stroke-linecap="round"
+                        stroke-linejoin="round">
+                    </path>
+                </svg>
+            </div>
+        </div>
+        <nav id="dropdown_list"
+            class="absolute -top-[240px] left-0 w-full bg-[#FFE8D6] py-3 -z-10 translate-y-0 transform transition-transform duration-500 ease-in-out sm:static sm:-top-0 sm:w-fit sm:bg-transparent sm:py-0 sm:-z-0 sm:translate-y-0 sm:transition-none">
+            <ul
+                class="[&>li>a]:text-accent-color [&>li>a]:text-xl [&>li>a]:font-poppins flex flex-col items-center gap-4 [&>li>a]:sm:text-sm sm:flex-row sm:justify-between sm:gap-12 [&>li>a]:md:text-lg lg:gap-14">
+                <li><a href="music.html">Music</a></li>
+                <li><a href="videos.html">Videos</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="tour.html">Tour</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="min-width w-screen min-h-[91.8dvh] bg-black p-4 text-center space-y-8">
+        <h1 class="text-accent-color text-[3.5rem] font-poppins font-black text-center leading-none">CONTACT</h1>
+        <div class="space-y-6">
+            <input type="text" name="name" id="name" placeholder="Name"
+                class="w-full h-[60px] bg-transparent border-2 border-transparent border-b-accent-color text-xl text-accent-color truncate placeholder:text-white placeholder:text-xl">
+            <input type="text" name="email" id="email" placeholder="Email"
+                class="w-full h-[60px] bg-transparent border-2 border-transparent border-b-accent-color text-xl text-accent-color placeholder:text-white placeholder:text-xl">
+            <input type="text" name="subject" id="subject" placeholder="Subject"
+                class="w-full h-[60px] bg-transparent border-2 border-transparent border-b-accent-color text-xl text-accent-color placeholder:text-white placeholder:text-xl">
+            <input type="text" name="Message" id="Message" placeholder="Message"
+                class="w-full h-[60px] bg-transparent border-2 border-transparent border-b-accent-color text-accent-color text-xl placeholder:text-white placeholder:text-xl">
+        </div>
+        <div class="w-fit bg-accent-color ml-auto p-1 flex justify-center items-center">
+            <button class="bg-white p-1 px-20 text-accent-color text-xl font-poppins font-medium">Submit</button>
+        </div>
+        <h1 class="text-accent-color text-sm font-poppins text-center">Copyright © Taba Chake. All Rights Reserved
+        </h1>
+    </section>
+    <script type="module" src="../components/main.js"></script>
 </body>
 
 </html>
