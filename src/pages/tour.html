@@ -10,7 +10,125 @@
 </head>
 
 <body>
-    <h1 class="text-5xl bg-pink-400">Tour</h1>
+    <header
+        class="relative min-width w-screen max-w-full h-[8.2vh] bg-black z-10 sm:flex sm:justify-between sm:items-center sm:py-3 sm:px-5 lg:py-4 lg:px-8">
+        <div class="max-w-full bg-black p-3 flex justify-between items-center shrink-0 sm:p-0 sm:w-fit">
+            <a class="text-accent-color text-2xl font-poppins font-semibold cursor-pointer md:text-3xl"
+                href="../../index.html">Taba
+                Chake</a>
+            <div class="flex justify-center items-center">
+                <svg id="menuButton" class="cursor-pointer sm:hidden" width="25px" height="25px" stroke-width="1.7"
+                    viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#CB997E">
+                    <path d="M3 5H21" stroke="#CB997E" stroke-width="1.7" stroke-linecap="round"
+                        stroke-linejoin="round">
+                    </path>
+                    <path d="M3 12H21" stroke="#CB997E" stroke-width="1.7" stroke-linecap="round"
+                        stroke-linejoin="round">
+                    </path>
+                    <path d="M3 19H21" stroke="#CB997E" stroke-width="1.7" stroke-linecap="round"
+                        stroke-linejoin="round">
+                    </path>
+                </svg>
+            </div>
+        </div>
+        <nav id="dropdown_list"
+            class="absolute -top-[240px] left-0 w-full bg-[#FFE8D6] py-3 -z-10 translate-y-0 transform transition-transform duration-500 ease-in-out sm:static sm:-top-0 sm:w-fit sm:bg-transparent sm:py-0 sm:-z-0 sm:translate-y-0 sm:transition-none">
+            <ul
+                class="[&>li>a]:text-accent-color [&>li>a]:text-xl [&>li>a]:font-poppins flex flex-col items-center gap-4 [&>li>a]:sm:text-sm sm:flex-row sm:justify-between sm:gap-12 [&>li>a]:md:text-lg lg:gap-14">
+                <li><a href="music.html">Music</a></li>
+                <li><a href="videos.html">Videos</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="tour.html">Tour</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="min-width w-screen h-auto bg-black p-4 text-center space-y-3">
+        <h1 class="text-accent-color text-[4.4rem] font-poppins font-black text-center leading-none">TOUR</h1>
+        <div class="space-y-3">
+            <div
+                class="w-full border-2 border-transparent border-b-accent-color mx-auto py-7 text-center flex flex-col gap-12 sm:flex-row sm:justify-between sm:items-center">
+                <h1 class="text-white text-3xl font-poppins font-medium">March 9, 2023</h1>
+                <p class="text-white text-3xl font-poppins font-medium">New York</p>
+                <div class="space-y-3 sm:space-y-0 sm:flex sm:gap-3">
+                    <button
+                        class="w-fit py-2 px-7 bg-accent-color text-white text-3xl font-poppins font-medium">RSVP</button>
+                    <div class="w-fit bg-accent-color mx-auto p-1 flex justify-center items-center">
+                        <button
+                            class="py-1 px-5 bg-white text-accent-color text-3xl font-poppins font-medium">RSVP</button>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="w-full border-2 border-transparent border-b-accent-color mx-auto py-7 text-center flex flex-col gap-12 sm:flex-row sm:justify-between sm:items-center">
+                <h1 class="text-white text-3xl font-poppins font-medium">March 19, 2023</h1>
+                <p class="text-white text-3xl font-poppins font-medium">Banglore</p>
+                <div class="space-y-3 sm:space-y-0 sm:flex sm:gap-3">
+                    <button
+                        class="w-fit py-2 px-7 bg-accent-color text-white text-3xl font-poppins font-medium">RSVP</button>
+                    <div class="w-fit bg-accent-color mx-auto p-1 flex justify-center items-center">
+                        <button
+                            class="py-1 px-5 bg-white text-accent-color text-3xl font-poppins font-medium">RSVP</button>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="w-full border-2 border-transparent border-b-accent-color mx-auto py-7 text-center flex flex-col gap-12 sm:flex-row sm:justify-between sm:items-center">
+                <h1 class="text-white text-3xl font-poppins font-medium">April 9, 2023</h1>
+                <p class="text-white text-3xl font-poppins font-medium">Delhi</p>
+                <div class="space-y-3 sm:space-y-0 sm:flex sm:gap-3">
+                    <button
+                        class="w-fit py-2 px-7 bg-accent-color text-white text-3xl font-poppins font-medium">RSVP</button>
+                    <div class="w-fit bg-accent-color mx-auto p-1 flex justify-center items-center">
+                        <button
+                            class="py-1 px-5 bg-white text-accent-color text-3xl font-poppins font-medium">RSVP</button>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="w-full border-2 border-transparent border-b-accent-color mx-auto py-7 text-center flex flex-col gap-12 sm:flex-row sm:justify-between sm:items-center">
+                <h1 class="text-white text-3xl font-poppins font-medium">May 19, 2023</h1>
+                <p class="text-white text-3xl font-poppins font-medium">Itanagar</p>
+                <div class="space-y-3 sm:space-y-0 sm:flex sm:gap-3">
+                    <button
+                        class="w-fit py-2 px-7 bg-accent-color text-white text-3xl font-poppins font-medium">RSVP</button>
+                    <div class="w-fit bg-accent-color mx-auto p-1 flex justify-center items-center">
+                        <button
+                            class="py-1 px-5 bg-white text-accent-color text-3xl font-poppins font-medium">RSVP</button>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="w-full border-2 border-transparent border-b-accent-color mx-auto py-7 text-center flex flex-col gap-12 sm:flex-row sm:justify-between sm:items-center">
+                <h1 class="text-white text-3xl font-poppins font-medium">July 22, 2023</h1>
+                <p class="text-white text-3xl font-poppins font-medium">HongKong</p>
+                <div class="space-y-3 sm:space-y-0 sm:flex sm:gap-3">
+                    <button
+                        class="w-fit py-2 px-7 bg-accent-color text-white text-3xl font-poppins font-medium">RSVP</button>
+                    <div class="w-fit bg-accent-color mx-auto p-1 flex justify-center items-center">
+                        <button
+                            class="py-1 px-5 bg-white text-accent-color text-3xl font-poppins font-medium">RSVP</button>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="w-full border-2 border-transparent border-b-accent-color mx-auto py-7 flex flex-col gap-12 sm:flex-row sm:justify-between sm:items-center">
+                <h1 class="text-white text-3xl font-poppins font-medium">January 29, 2025</h1>
+                <p class="text-white text-3xl font-poppins font-medium">Philippines</p>
+                <div class="space-y-3 sm:space-y-0 sm:flex sm:gap-3">
+                    <button
+                        class="w-fit py-2 px-7 bg-accent-color text-white text-3xl font-poppins font-medium">RSVP</button>
+                    <div class="w-fit bg-accent-color mx-auto p-1 flex justify-center items-center">
+                        <button
+                            class="py-1 px-5 bg-white text-accent-color text-3xl font-poppins font-medium">RSVP</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h1 class="text-accent-color text-sm font-poppins text-center py-4">Copyright © Taba Chake. All Rights Reserved
+        </h1>
+    </section>
+    <script type="module" src="../components/main.js"></script>
 </body>
 
 </html>
